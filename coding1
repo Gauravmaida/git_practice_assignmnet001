@@ -8,13 +8,12 @@ function reverse(str){
  return bag;
 }
 
-let rev_str =revrse(str);
+let rev_str =reverse(str);
 
-if(str===rev_str){
+if(str==rev_str){
  console.log("Palindrome")
 }
 else{
     console.log("Not Palindrome");
 }
 
-/*hyper text markup lan */
