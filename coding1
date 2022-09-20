@@ -16,3 +16,5 @@ if(string==rev_str){
 else{
     console.log("Not Palindrome");
 }
+
+/*hyper text markup lan */
