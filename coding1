@@ -1,16 +1,16 @@
-let str ="aman";
+let str ="naman";
 
-function reverse(string){
+function reverse(str){
  let bag = "";
- for(let i =string.length; i>=0;i-- ){
-    bag = bag+string(i);
+ for(let i =str.length; i>=0;i-- ){
+    bag = bag+str[i];
  }
  return bag;
 }
 
-let rev_str =revrse();
+let rev_str =revrse(str);
 
-if(string==rev_str){
+if(str===rev_str){
  console.log("Palindrome")
 }
 else{
