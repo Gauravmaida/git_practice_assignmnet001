@@ -1,0 +1,18 @@
+let str ="aman";
+
+function reverse(string){
+ let bag = "";
+ for(let i =string.length; i>=0;i-- ){
+    bag = bag+string(i);
+ }
+ return bag;
+}
+
+let rev_str =revrse();
+
+if(string==rev_str){
+ console.log("Palindrome")
+}
+else{
+    console.log("Not Palindrome");
+}
